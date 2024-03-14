@@ -1,0 +1,49 @@
+.elemento {
+    padding: 15px;
+    position: relative;
+    
+    width: 100%;
+    height: 420px;
+}
+.derecha {
+    position: absolute;
+    
+    margin-left: 700px;
+    margin-right: 20px;
+}
+.elemento.izq{
+    margin-top: 75px;
+}
+.izquierda {
+    position: absolute;
+    
+    margin-right: 700px;
+    margin-left: 20px;
+}
+.subtitulo{
+    margin-top: 11px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.elemento.izq img {
+    max-width: 665px;
+    float: left;
+}
+.elemento.der img{
+    max-width: 665px;
+    float: right;
+}
+.elemento button {
+    float: right;
+    background-color: grey;
+    color: white;
+    margin: 14px;
+    border-radius: 20px;
+    font-weight: bolder;
+    height: 30px;
+    width: 130px;
+    margin-right: 45px;
+}
+button:hover{
+    scale: 115%;
+}
